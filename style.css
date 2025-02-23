@@ -47,12 +47,17 @@ button {
 }
 body {
     display: flex;
-    justify-content: center;
-    align-items: flex-start; /* Aligns content towards the top */
+    justify-content: center; /* Centers horizontally */
+    align-items: flex-start; /* Keeps content at the top */
     height: 100vh;
     flex-direction: column;
     text-align: center;
-    padding-top: 50px; /* Adds some space from the top */
+    padding-top: 50px; /* Adjust spacing from top */
+    margin: 0; /* Ensures no unwanted margins */
 }
 
+.container {
+    width: 50%; /* Adjust width as needed */
+    margin: 0 auto; /* Centers content */
+}
 
