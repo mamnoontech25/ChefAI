@@ -1,0 +1,47 @@
+/* Updated Color Theme */
+:root {
+    --primary-color: #5A8240; /* Avocado Green */
+    --accent-color: #FFD166;  /* Warm Yellow */
+    --secondary-color: #F4EAE0; /* Soft Beige */
+    --text-color: #333333; /* Dark Charcoal */
+}
+
+/* Apply Colors */
+body {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--primary-color);
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* Buttons */
+button {
+    background-color: var(--accent-color);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
