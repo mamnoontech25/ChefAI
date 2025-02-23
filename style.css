@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #ff914d;
+    color: white;
+    padding: 20px;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff914d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#recipeResult {
+    margin-top: 20px;
+    font-size: 18px;
+}
