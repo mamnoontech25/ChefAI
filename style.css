@@ -39,16 +39,17 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 80vh; /* Adjust to keep space for footer */
+    justify-content: flex-start;
+    height: 80vh;
     text-align: center;
+    margin-top: 50px; /* Adjusted spacing from navbar */
 }
 
 /* Search Bar */
 .search-container {
     display: flex;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 30px; /* Extra space below navbar */
 }
 
 input[type="text"] {
@@ -63,22 +64,4 @@ button {
     border: none;
     padding: 10px 15px;
     cursor: pointer;
-    color: var(--text-color);
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #E6B800; /* Slightly darker yellow */
-}
-
-/* Footer */
-.footer {
-    background-color: var(--primary-color);
-    color: white;
-    text-align: center;
-    padding: 15px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
+    color: 
