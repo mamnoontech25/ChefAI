@@ -55,9 +55,3 @@ body {
     padding-top: 50px; /* Adjust spacing from top */
     margin: 0; /* Ensures no unwanted margins */
 }
-
-.container {
-    width: 50%; /* Adjust width as needed */
-    margin: 0 auto; /* Centers content */
-}
-
