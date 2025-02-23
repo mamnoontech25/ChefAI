@@ -106,3 +106,14 @@ button {
     font-size: 14px;
     color: #666;
 }
+/* Footer */
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
